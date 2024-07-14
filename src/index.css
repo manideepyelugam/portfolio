@@ -1,0 +1,102 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+
+:root{
+    --body-background:#ede8e4;
+    --body-color : #010101;
+    --btn-hover : #010101;
+    --btn-hover-text : #ede8e4;
+}
+
+
+[data-theme='dark'] {
+    --body-background:#010101;
+    --body-color : #ede8e4;
+    --btn-hover : #ede8e4;
+    --btn-hover-text : #010101;
+  }
+  
+
+  
+[data-theme='green'] {
+    --body-background:#272727;
+    --body-color : #d8ff0f;
+    --btn-hover : #d8ff0f;
+    --btn-hover-text : #272727;
+}
+
+
+[data-theme='pink'] {
+    --body-background:#206246;
+    --body-color : #dbb3be;
+    --btn-hover : #dbb3be;
+    --btn-hover-text : #206246;
+}
+
+
+[data-theme='orange'] {
+    --body-background:#b95549;
+    --body-color : #f6d97c;
+    --btn-hover : #f6d97c;
+    --btn-hover-text : #b95549;
+}
+
+[data-theme='blue'] {
+    --body-background:#99a2bf;
+    --body-color : #eaf0ff;
+    --btn-hover : #eaf0ff;
+    --btn-hover-text : #99a2bf;
+}
+
+
+[data-theme='snow'] {
+    --body-background:#858b7d;
+    --body-color : #f1fae5;
+    --btn-hover : #f1fae5;
+    --btn-hover-text : #858b7d;
+}
+
+[data-theme='light-blue'] {
+    --body-background:#2a3127;
+    --body-color : #d8eafd;
+    --btn-hover : #d8eafd;
+    --btn-hover-text : #2a3127;
+}
+
+
+/* *{
+    transition: all ease 0.6s;
+} */
+
+@font-face {
+    font-family: bold;
+    src: url("./fonts/NeueMontreal-Bold.ttf");
+}
+
+@font-face {
+    font-family: regular;
+    src: url("./fonts/NeueMontreal-Regular.ttf");
+}
+
+@font-face {
+    font-family: medium;
+    src: url("./fonts/NeueMontreal-Medium.ttf");
+}
+
+
+@font-face {
+    font-family: thin;
+    src: url("./fonts/NeueMontreal-Light.ttf");
+}
+
+.no-scroll {
+    overflow: hidden;
+  }
+  
+
+
