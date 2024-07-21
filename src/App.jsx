@@ -167,7 +167,7 @@ const [count, setCount] = useState(0);
 <p className='text-text font-regular text-[22px] tracking-wide text-wrap '>I help designers, small agencies and businesses bring their ideas to life. Powered by Figma, VS Code and coffee, I turn your requirements into CMS-ified and ecommerce-ified websites - on time and on budget.</p>
 
 
-<p className='text-text font-regular text-[20px] mt-10'>Got any questions ?? <a href="" className='font-medium'>&nbsp;Reach out to me !</a></p>
+<p className='text-text font-regular text-[20px] mt-10'>Got any questions ?? <a href="https://wa.me/+916303256757" className='font-medium'>&nbsp;Reach out to me !</a></p>
                           
                   </motion.div>
 
@@ -212,7 +212,6 @@ const [count, setCount] = useState(0);
              <motion.div className='lg:w-4/5 w-full  my-10' initial={{opacity:0}} whileInView={{opacity:1}} transition={{duration:1,delay:0.4,ease:'easeIn'}}>
             <p className='text-text font-regular text-[22px] tracking-wide text-wrap '>My dedication to creating visually appealing and user-friendly web experiences fuels my enthusiasm for making websites for clients. I am committed to staying updated with the latest advancements in the field, ensuring that my skills and knowledge remain at the cutting edge.</p>
 
-            <p className='text-text font-regular text-[20px] mt-10'>Wanna know more about me?? <a href="" className='font-medium'>&nbsp;Click Here</a></p>
               
       </motion.div>
 </div>
