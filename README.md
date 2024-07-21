@@ -11,3 +11,4 @@ Currently, two official plugins are available:
 # portfolio-new
 # portfolio-new
 # port
+# portfolio
